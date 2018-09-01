@@ -17,14 +17,19 @@
 
 <resources>
 
-    <color name="bg_actionbar">#3f51b5</color>
+    <string-array name="appearance_examples">
+        <item>Alpha</item>
+        <item>Left</item>
+        <item>Right</item>
+        <item>Bottom</item>
+        <item>Bottom right</item>
+        <item>Scale</item>
+    </string-array>
 
-    <color name="pink_transparent">#aa700d39</color>
-    <color name="green_transparent">#aa375a1f</color>
-    <color name="blue_transparent">#aa293576</color>
-    <color name="red_transparent">#aa7f3907</color>
-    <color name="purple_transparent">#aa432677</color>
-
-    <color name="holo_red_light_transparent">#aaff4444</color>
+    <string-array name="swipedismiss">
+        <item>Swipe-To-Dismiss</item>
+        <item>Contextual Undo</item>
+        <item>CU - Timed Delete</item>
+    </string-array>
 
 </resources>

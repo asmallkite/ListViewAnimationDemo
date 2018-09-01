@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   ~ Copyright 2014 Niek Haarman
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,16 +14,15 @@
   ~ limitations under the License.
   -->
 
-<resources>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <color name="bg_actionbar">#3f51b5</color>
+    <com.nhaarman.listviewanimations.itemmanipulation.DynamicListView
+        android:id="@+id/activity_dynamiclistview_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/paddingTop"
+        android:clipToPadding="false"
+        android:divider="@null"
+        android:paddingBottom="48dp" />
 
-    <color name="pink_transparent">#aa700d39</color>
-    <color name="green_transparent">#aa375a1f</color>
-    <color name="blue_transparent">#aa293576</color>
-    <color name="red_transparent">#aa7f3907</color>
-    <color name="purple_transparent">#aa432677</color>
-
-    <color name="holo_red_light_transparent">#aaff4444</color>
-
-</resources>
+</merge>

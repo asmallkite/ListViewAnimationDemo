@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   ~ Copyright 2014 Niek Haarman
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,16 +14,15 @@
   ~ limitations under the License.
   -->
 
-<resources>
-
-    <color name="bg_actionbar">#3f51b5</color>
-
-    <color name="pink_transparent">#aa700d39</color>
-    <color name="green_transparent">#aa375a1f</color>
-    <color name="blue_transparent">#aa293576</color>
-    <color name="red_transparent">#aa7f3907</color>
-    <color name="purple_transparent">#aa432677</color>
-
-    <color name="holo_red_light_transparent">#aaff4444</color>
-
-</resources>
+<TextView
+    android:id="@+id/list_row_draganddrop_textview"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fontFamily="sans-serif-light"
+    android:minHeight="48dp"
+    android:padding="10dp"
+    android:textColor="?android:attr/textColorSecondary"
+    android:textSize="20sp"
+    tools:ignore="UnusedAttribute" />

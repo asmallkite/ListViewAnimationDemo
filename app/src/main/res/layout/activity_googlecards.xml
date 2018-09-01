@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   ~ Copyright 2014 Niek Haarman
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,16 +14,18 @@
   ~ limitations under the License.
   -->
 
-<resources>
-
-    <color name="bg_actionbar">#3f51b5</color>
-
-    <color name="pink_transparent">#aa700d39</color>
-    <color name="green_transparent">#aa375a1f</color>
-    <color name="blue_transparent">#aa293576</color>
-    <color name="red_transparent">#aa7f3907</color>
-    <color name="purple_transparent">#aa432677</color>
-
-    <color name="holo_red_light_transparent">#aaff4444</color>
-
-</resources>
+<ListView
+    android:id="@+id/activity_googlecards_listview"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e2e2e2"
+    android:clipToPadding="false"
+    android:divider="@null"
+    android:dividerHeight="8dp"
+    android:fadingEdge="none"
+    android:fitsSystemWindows="true"
+    android:padding="12dp"
+    android:scrollbarStyle="outsideOverlay"
+    tools:ignore="overdraw" />

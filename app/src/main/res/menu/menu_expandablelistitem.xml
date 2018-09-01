@@ -15,16 +15,11 @@
   ~ limitations under the License.
   -->
 
-<resources>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
 
-    <color name="bg_actionbar">#3f51b5</color>
+    <item
+        android:id="@+id/menu_expandable_limit"
+        android:checkable="true"
+        android:title="@string/limit"/>
 
-    <color name="pink_transparent">#aa700d39</color>
-    <color name="green_transparent">#aa375a1f</color>
-    <color name="blue_transparent">#aa293576</color>
-    <color name="red_transparent">#aa7f3907</color>
-    <color name="purple_transparent">#aa432677</color>
-
-    <color name="holo_red_light_transparent">#aaff4444</color>
-
-</resources>
+</menu>
