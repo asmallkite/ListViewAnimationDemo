@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.haarman.listviewanimations.util;
+package com.tencent.evanzhengli.listviewanimationdemo.utils;
 
 import android.graphics.Bitmap;
 import android.util.LruCache;

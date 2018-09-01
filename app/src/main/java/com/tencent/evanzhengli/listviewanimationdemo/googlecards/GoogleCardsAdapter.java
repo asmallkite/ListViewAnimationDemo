@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.haarman.listviewanimations.googlecards;
+package com.tencent.evanzhengli.listviewanimationdemo.googlecards;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -25,9 +25,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.haarman.listviewanimations.R;
-import com.haarman.listviewanimations.util.BitmapCache;
 import com.nhaarman.listviewanimations.ArrayAdapter;
+import com.tencent.evanzhengli.listviewanimationdemo.R;
+import com.tencent.evanzhengli.listviewanimationdemo.utils.BitmapCache;
 
 public class GoogleCardsAdapter extends ArrayAdapter<Integer> {
 

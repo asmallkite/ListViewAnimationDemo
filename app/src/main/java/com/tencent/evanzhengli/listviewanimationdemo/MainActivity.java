@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.tencent.evanzhengli.listviewanimationdemo.googlecards.GoogleCardsActivity;
+
 public class MainActivity extends Activity {
 
     @Override
@@ -17,6 +19,11 @@ public class MainActivity extends Activity {
 
     public void onAppearanceClicked(final View view) {
         Intent intent = new Intent(this, AppearanceExamplesActivity.class);
+        startActivity(intent);
+    }
+
+    public void onGoogleCardsExampleClicked(final View view) {
+        Intent intent = new Intent(this, GoogleCardsActivity.class);
         startActivity(intent);
     }
 }
